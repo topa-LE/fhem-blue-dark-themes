@@ -36,6 +36,9 @@ Set editor attribute for JavaEditor to:
 <code>attr global exclude_from_update fhemicon_dark_topaLE.png fhemicon_darksmall.png icoEverything.png 10px-kreis-gelb.png 10px-kreis-rot.png 10px-kreis-gruen.png Zoom-in.png Zoom-out.png topa_LECommon.css topa_LEstyle.css dashboard_topa_LEstyle.css</code>
 </pre>
 
+<h2>Select Style</h2>
+Main-Menu Left Bar <strong><code>topa_LE</code></strong> select.
+
 FHEM Reboot per Konsole with:
 
 <code>shutdown restart</code>
