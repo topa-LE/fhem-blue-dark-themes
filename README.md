@@ -38,6 +38,7 @@ Set editor attribute for JavaEditor to:
 
 <h2>Select Style</h2>
 Main-Menu Left Bar <strong><code>topa_LE</code></strong> select.
+<br><br>
 
 FHEM Reboot per Konsole with:
 
