@@ -1,0 +1,459 @@
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web') ;
+@import url('topa_LECommon.css') ;
+body {
+background-color : #18222a;
+background-image : url(../images/default/fhemicon_dark_topaLE.png);
+background-repeat : no-repeat;
+color : #CCCCCC;
+font-family : 'Titillium', Arial, Helvetica, sans-serif;
+font-size : 15px;
+}
+#logo {
+position : absolute;
+top : 10px;
+left : 20px;
+width : 140px;
+height : 150px;
+}
+#menu {
+position : absolute;
+top : 170px;
+left : 20px;
+width : 140px;
+}
+#console {
+width : 100%;
+top : 2em;
+bottom : 0;
+position : absolute;
+overflow-y : auto;
+}
+#hdr {
+position : absolute;
+top : 10px;
+left : 200px;
+}
+#content {
+position : absolute;
+top : 50px;
+left : 200px;
+bottom : 20px;
+right : 10px;
+padding-left : 0;
+padding-top : 4px;
+}
+a {
+color : #CCCCCC;
+text-decoration : none;
+}
+a:hover {
+color : #ffffff;
+}
+.wide {
+width : 100%;
+}
+table.block {
+border : #30415a solid 1px;
+width : 100%;
+background : #081824;
+box-shadow : 4px 4px 4px #0a0f17;
+}
+table.block tr.odd {
+background : #0b1319;
+}
+table.block tr.sel {
+background : #970f05;
+}
+table {
+border-radius : 8px;
+border-spacing : 0;
+padding-bottom : 6px;
+padding-top : 6px;
+}
+table.room {
+font-family : 'Titillium';
+background : #081824;
+width : 160px;
+border : #30415a solid 1px;
+box-shadow : 4px 4px 4px #0a0f17;
+}
+table.room a {
+color : #CCCCCC;
+text-decoration : none;
+}
+table.room a:hover {
+color : #eba15d;
+}
+table.room tr.sel {
+background : #eba15d;
+}
+table.room tr.sel a {
+font-weight : 500;
+font-size : 15px;
+color : #081824 !important ;
+}
+th {
+font-family : 'Titillium';
+color : #f8d0a5;
+text-align : left;
+padding-left : 10px;
+font-weight : 200;
+font-size : 14px;
+}
+td {
+padding-left : 10px;
+padding-right : 10px;
+padding-top : 3px;
+padding-bottom : 3px;
+}
+input {
+outline : none;
+background-color : #d2deef;
+border : #30415a solid 2px;
+color : #303030;
+font-family : 'Titillium';
+padding : 6px;
+margin-left : 10px;
+border-radius : 8px;
+box-shadow : 4px 4px 4px #0a0f17;
+}
+input:focus {
+border : #f4a242 solid 2px;
+}
+input:disabled {
+color : #808080;
+}
+input[type="submit"] {
+background-color : #d2deef;
+border-style : outset;
+border-width : 2px;
+}
+textarea {
+min-width : 1000px;
+background-color : #111111;
+border : #ffffff solid 1px;
+color : #cccccc;
+padding : 5px;
+margin-left : 10px;
+border-radius : 8px;
+box-shadow : 4px 4px 4px #0a0f17;
+}
+#left {
+position : absolute;
+top : 140px;
+left : 60px;
+width : 160px;
+}
+#right {
+position : absolute;
+top : 20px;
+left : 200px;
+bottom : 20px;
+right : 10px;
+}
+body > div#left {
+position : fixed;
+}
+div#block {
+border : gray solid 1px;
+background : #101010;
+padding : 0.7em;
+}
+div#dist {
+padding-top : 0.3em;
+}
+button.dist {
+margin : 10px;
+background : transparent;
+border : 0;
+cursor : pointer;
+}
+h2, h3, h4 {
+color : #EEE;
+line-height : 1.3;
+margin-top : 1.5em;
+font-family : 'Titillium', Verdana;
+}
+a img {
+border-style : none;
+}
+.col2 {
+text-align : center;
+}
+tr.column > td {
+padding-top : 5px;
+padding-right : 5px;
+padding-left : 8px;
+vertical-align : top;
+}
+.makeTable {
+display : inline;
+float : left;
+clear : left;
+margin-top : 10px;
+margin-bottom : 20px;
+}
+.makeSelect {
+display : inline;
+float : left;
+clear : left;
+vertical-align : middle;
+}
+select {
+margin-left : 5px;
+margin-right : 5px;
+font-family : 'Titillium';
+}
+.get, .set, .attr {
+margin-bottom : 5px;
+float : left;
+font-family : 'Titillium';
+}
+.slider {
+margin-left : 10px;
+float : left;
+width : 250px;
+height : 26px;
+font-family : 'Titillium';
+}
+.get .slider, .set .slider, .attr .slider {
+background : #101010;
+border-radius : 8px;
+}
+.set .set {
+margin-bottom : 2px;
+margin-top : 3px;
+}
+.slider {
+margin-left : 10px;
+float : left;
+width : 250px;
+height : 26px;
+border-style : solid;
+border-width : 2px;
+border-color : #555555;
+}
+.handle {
+position : relative;
+cursor : pointer;
+width : 50px;
+height : 20px;
+line-height : 20px;
+border : solid 2px;
+color : white;
+text-align : center;
+}
+.downText, .makeSelect select {
+margin : 0.7em;
+}
+ul.sortable-src, ul.sortable-dest {
+min-width : 130px;
+min-height : 1.8em;
+list-style-type : none;
+border : white solid 2px;
+vertical-align : middle;
+border-radius : 3px;
+margin : 3px;
+background : #aaa;
+padding : 2px;
+}
+ul.sortable-src li, ul.sortable-dest li {
+color : black !important ;
+font-size : 0.8em;
+line-height : 1.6em;
+vertical-align : middle;
+text-align : left;
+border-radius : 3px;
+margin : 3px;
+padding : 2px;
+padding-left : 4px;
+min-width : 120px;
+}
+ul.sortable-dest {
+background : #101010;
+}
+span.sort-item-delete-link {
+float : right;
+margin : 0;
+vertical-align : middle;
+margin-left : 3px;
+padding : 0;
+}
+.ui-state-highlight {
+height : 1.1em;
+line-height : 1.1em;
+}
+svg {
+height : 32px;
+width : 32px;
+vertical-align : middle;
+margin : 2px 0;
+}
+svg:not([fill]) {
+fill : #fff;
+}
+g.on {
+fill : red;
+}
+.rc_body {
+border-style : solid;
+border-color : gray;
+border-width : 2px;
+padding : 5px;
+background : #101010;
+font-size : 6px;
+}
+.rc_button {
+padding : 5px 7px;
+}
+.rc_button img {
+border-style : solid;
+border-width : 1px;
+border-color : transparent;
+}
+.rc_button img:active {
+border-color : gray;
+}
+.changed a, .changed {
+color : #eba15d !important ;
+}
+.colorpicker_ct .slider {
+background : url(../jscolor/ct_background.svg);
+}
+.colorpicker_ct_mired .slider {
+background : url(../jscolor/ct_mired_background.svg);
+}
+.colorpicker_hue .slider {
+background : url(../jscolor/hue_background.svg);
+}
+.get, .set, .attr {
+margin-bottom : 5px;
+float : left;
+}
+select.svgSrc {
+width : 100px;
+}
+select.svgColumn {
+width : 50px;
+}
+select.svgRegexp {
+width : 120px;
+}
+#fwmenu {
+position : absolute;
+z-index : 1005;
+text-align : left;
+max-width : 600px;
+font-weight : normal;
+font-size : 100%;
+background : black;
+border : white solid 1px;
+}
+#fwmenu li a {
+color : white;
+}
+div#svgmarker {
+position : absolute;
+z-index : 1005;
+padding : 6px 10px;
+text-align : left;
+max-width : 600px;
+color : white;
+background : black;
+border : white solid 2px;
+border-radius : 4px;
+}
+.log {
+font-family : 'Titillium';
+}
+pre.log {
+border-radius : 3px;
+border : #30415a solid 1px;
+background-color : #1e2b36;
+padding : 12px;
+margin-left : 10px;
+font-family : 'Titillium';
+}
+pre {
+background-color : #18222a;
+border : #30415a solid 1px;
+border-radius : 3px;
+font-family : 'Titillium';
+padding : 7px;
+word-break : break-all;
+}
+pre.dval {
+word-break : break-all;
+}
+#console {
+border-radius : 3px;
+border : #30415a solid 1px;
+background-color : #1e2b36;
+padding : 12px;
+margin-left : 10px;
+width : 95%;
+}
+select.svgSrc, select.svgRegexp, input {
+font-family : 'Titillium';
+}
+.changed a, .changed {
+color : #8c1404;
+}
+#logo {
+position : fixed;
+top : 30px;
+left : 20px;
+width : 100px;
+height : 105px;
+text-align : center;
+font-family : 'Titillium', Times-Roman;
+font-size : xx-large;
+font-weight : bold;
+}
+select.svgSrc {
+width : 100px;
+background-color : #dfdfd9;
+font-family : "Titillium";
+}
+select.svgColumn {
+width : 50px;
+background-color : #dfdfd9;
+}
+select.svgRegexp {
+width : 120px;
+background-color : #dfdfd9;
+}
+select.set {
+background-color : #dfdfd9;
+}
+input.maininput {
+width : 500px;
+}
+.changed a, .changed {
+color : #7e1709;
+}
+#devSpecHelp {
+border-radius : 3px;
+border : #666 solid 1px;
+background-color : #373c48;
+padding : 10px;
+font-family : 'Titillium';
+}
+.cm-s-blackboard.CodeMirror {
+background : #0b1319 !important ;
+color : #F8F8F8;
+}
+.cm-s-blackboard .CodeMirror-gutters {
+background : #0b1319 !important ;
+}
+.CodeMirror {
+font-family : 'Titillium' !important ;
+font-size : 16px;
+height : 500px !important ;
+width : 1100px !important ;
+border-radius : 3px;
+border : #30415a solid 1px;
+padding : 5px;
+margin-left : 10px;
+}

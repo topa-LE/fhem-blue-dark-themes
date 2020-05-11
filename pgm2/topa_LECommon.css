@@ -1,0 +1,75 @@
+@import url('dashboard_topa_LEstyle.css') ;
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web') ;
+table.readings td:nth-child(2) {
+word-break : break-all;
+}
+div.ui-dialog {
+border : #f3f3f3 solid 4px;
+padding : 0.2em;
+}
+div.ui-dialog div.ui-dialog-titlebar {
+display : none;
+}
+div.ui-widget-content {
+background : #081824;
+color : #F3F3F3;
+}
+div.ui-widget-content a {
+color : #CCCCCC !important ;
+text-decoration : none !important ;
+}
+.ui-widget {
+font-family : 'Titillium Web', Arial, sans-serif !important ;
+}
+.ui-button-text {
+font-weight : normal !important ;
+color : #555 !important ;
+}
+div.detLink {
+display : inline-block;
+margin-right : 1.5em;
+padding-left : 11px;
+}
+.fhemlog {
+color : #FFFFFF;
+}
+svg.zw_nr .zwBox {
+stroke : #fff;
+stroke-width : 2px;
+fill : #000;
+}
+svg.zw_nr .zwDongle {
+stroke : red;
+stroke-width : 2px;
+fill : #000;
+}
+svg.zw_nr .zwMargin {
+stroke : #fff;
+stroke-width : 1px;
+fill : none;
+}
+svg.zw_nr .zwLine {
+stroke : #fff;
+stroke-width : 1px;
+}
+svg.zw_nr .zwArrowHead {
+fill : #fff;
+stroke-width : 1px;
+}
+svg.zw_nr {
+height : auto;
+width : auto;
+margin : 0;
+}
+#errmsg {
+border-radius : 3px;
+border : #000 solid 1px;
+background-color : #081824;
+padding : 4px;
+margin-left : 20px;
+font-family : 'Titillium';
+position : fixed;
+top : 18px;
+left : 350px;
+z-index : 10;
+}
