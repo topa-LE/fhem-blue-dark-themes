@@ -46,4 +46,4 @@ FHEM Reboot per Konsole with:
 Have Fun ;-)
 <br>
 <h2>Screenshots</h2>
-<img src="https://github.com/topa-LE/fhem_blue_dark_themes/blob/master/screenshots/screen-0.png?raw=true" alt="Folder" style="max-width:100%;" width="400">
+<img src="https://github.com/topa-LE/fhem_blue_dark_themes/blob/master/screenshots/screen-0.png?raw=true" alt="Folder" style="max-width:100%;" width="500">
