@@ -1,3 +1,5 @@
+/* topa-LE Blue Dark Theme for FHEM Smarthome */
+/**********************************************/
 @import url('dashboard_topa_LEstyle.css') ;
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web') ;
 table.readings td:nth-child(2) {
